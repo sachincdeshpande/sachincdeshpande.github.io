@@ -1,5 +1,6 @@
 nav.navbar, .navbar-default {
     background-color: #2892D7 !important;
+    padding: 15px;
   }
   
   .navbar-default {
@@ -10,6 +11,7 @@ nav.navbar, .navbar-default {
   
   .navbar-default .navbar-nav > li > a {
     color: white;
+    
   }
   
   .navbar-default .navbar-brand {
@@ -34,3 +36,21 @@ nav.navbar, .navbar-default {
     color: white;
     background-color: transparent;
   }
+
+  
+  li {
+    display: inline;
+    background-color: #2892D7;
+    border-right: 100px solid #2892D7;
+  }
+  
+  li:first-child {
+    border-left: 30px solid #2892D7;
+  }
+
+  li a:hover {
+    color: white;
+  }
+  
+  
+  
