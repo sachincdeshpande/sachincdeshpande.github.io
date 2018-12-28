@@ -14,10 +14,11 @@ export default class Home extends Component{
                            <Image src="assets/prof-pic.jpg" circle className="profile-pic"/>
                            <h2> Sachin Deshpande </h2>
                         </Col>
-                        <p>Hello! My name is Sachin Deshpande - I'm a aspiring sophomore at UC Santa Cruz, majoring in Computer Science.</p>
+                        <p1>Hello! My name is Sachin Deshpande - I'm a aspiring sophomore at UC Santa Cruz, majoring in Computer Science.</p1>
+                        <br />
                         <p1>During my time at Santa Cruz, I've earned Dean's Honors continuously, and maintained a 4.0 GPA.</p1>
-                        <br></br>
-                        <p1>I am also a member on both UCSC's ACM Chapter, as well as the UCSC Hockey team.</p1>
+                        <br />
+                        <p1>I am also a member of both UCSC's ACM Chapter, as well as the UCSC Hockey team.</p1>
                         <p>In order to see my LinkedIn, GitHub, and Resume, please use the links at the top of the page.</p>
                     </Row>
                 </Jumbotron>
