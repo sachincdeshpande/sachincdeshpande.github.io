@@ -12,8 +12,12 @@ export default class CustomNavbar extends Component {
         <Navbar.Header>
           <Navbar.Brand>
             <u1>
-              <Button variant="contained">
-                <li><a href="https://www.linkedin.com/in/sachincdeshpande/">LinkedIn</a></li>
+              // https://linkedin.com/in/sachincdeshpande/
+              <Button component={Link} to="http://linkedin.com/in/sachincdeshpande/">
+                Link
+              </Button>
+              <Button variant="contained" color="background">
+                LinkedIn
               </Button>
 
               <li><a href="https://github.com/sachincdeshpande">GitHub</a></li>
